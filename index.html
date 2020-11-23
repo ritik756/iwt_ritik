@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>ToDo List</title>
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<div class="form" style="margin: auto; margin-top: 200px;">
+			<h2 align="center" style="padding: 20px;">Authentication</h2>
+			<form id="loginform" method="POST" action="login.php">
+				<p>
+					<label for="id_email" class="text-label">Email Address</label><br/>
+					<input id="id_email" type="email" name="email" class="text-input" placeholder="someone@example.com" />
+				</p>
+				<p>
+					<label for="id_password" class="text-label">Password</label><br/>
+					<input id="id_password" type="password" name="password" class="text-input" placeholder="password" maxlength="15" />
+					<br/><label id="id_password_validation" class="text-label" style="color: red;"></label>
+				</p>
+				<div align="center">
+					<button type="button" class="button" onclick="LoginValidate();">Login</button>
+				</div>
+			</form>
+		</div>
+		<script src="js/main.js"></script>
+	</body>
+</html>
