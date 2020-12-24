@@ -1,5 +1,6 @@
 body {
-	background-color: #f8f9fc;
+	background-image: url("bg.png");
+	background-repeat: repeat;
 	font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
